@@ -1,0 +1,12 @@
+# Cargo build output
+/target
+
+# PAM module build output
+/pam/*.o
+/pam/*.so
+
+# Local secrets: TLS private keys, PKCS#12 bundles, docker-compose environment
+*.key
+*.p12
+*.pfx
+.env
